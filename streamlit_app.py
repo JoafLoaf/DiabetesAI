@@ -5,7 +5,7 @@ import numpy as np
 # Load the trained model
 @st.cache_resource
 def load_model():
-    with open("/Users/joad/Desktop/ML model/Diabetes/python code/Diabetes prediction system/Saved model/diabetes_model.rfc", "rb") as f:
+    with open('/Users/joad/Desktop/ML model/Diabetes/python code/Diabetes prediction system/Saved model/diabetes_model.rfc', "rb") as f:
         return pickle.load(f)
 
 model = load_model()
