@@ -1,2 +1,2 @@
 import pandas as pd
-pd.print("helloWorld")
+pd("helloWorld")
