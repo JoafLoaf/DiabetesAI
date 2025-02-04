@@ -12,7 +12,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('model/diabetes_model.rfc', 'rb'))
+diabetes_model = st.load(open('model/diabetes_model.rfc', 'rb'))
 
 def clear_text():
   st.session_state["1"] = ""
