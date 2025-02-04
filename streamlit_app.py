@@ -1,1 +1,1 @@
-print(urmom)
+print('urmom')
