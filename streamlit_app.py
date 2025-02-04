@@ -1,8 +1,8 @@
 print("Content-Type: text/html")
-print """\
+print("""\
 <html>
 <body>
 HelloWorld
 </body>
 </html>
-"""
+""")
