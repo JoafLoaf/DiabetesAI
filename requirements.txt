@@ -1,3 +1,3 @@
 streamlit
 streamlit_option_menu
-skit-learn
+sklearn
