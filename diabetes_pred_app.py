@@ -39,7 +39,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
 
     st.title('Diabetes Prediction using ML')
-    st.markdown(":red[** All fields are mandatory.*]")
+    st.markdown(":red[*All fields are mandatory.*]")
     
     Pregnancies = st.text_input('Number of Pregnancies', key='1')
     Glucose = st.text_input('Glucose Level', key='2')
